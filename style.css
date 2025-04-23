@@ -8,8 +8,18 @@
 body {
     font-family: 'Roboto', sans-serif; /* Fuente limpia para el cuerpo */
     line-height: 1.6;
-    color: #333; /* Color de texto oscuro pero suave */
-    background-color: #f8f8f8; /* Fondo casi blanco */
+    color: #484646; /* Color de texto oscuro pero suave */
+    background-color: #f0efee;/* Fondo casi blanco */
+    #inicio {
+        background-image: url('img/Fondo.jpg'); /* Cambia 'fondo-inicio.jpg' por el nombre de tu imagen */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white; /* Cambia el color del texto si es necesario para mejor visibilidad */
+        padding: 100px 0; /* Ajusta el espacio interno de la sección */
+    }
+    
 }
 
 .container {
@@ -56,7 +66,7 @@ a:hover {
 /* Botones */
 .btn {
     display: inline-block;
-    background-color: #c8a8a8; /* Un color suave, puedes cambiarlo */
+    background-color: #cb8d8d; /* Un color suave, puedes cambiarlo */
     color: #fff;
     padding: 12px 25px;
     border-radius: 5px;
